@@ -1,0 +1,40 @@
+.welcome input{
+    font-size: 1em;
+    text-align: center;
+    width:50%;
+    border-radius: 10px;
+    margin-bottom:6%;
+}
+.welcome input:focus{
+    outline: none;
+}
+.welcome{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    flex-wrap: wrap;
+    margin-top:0;
+    padding-top:0;
+}
+
+.welcome button {
+    color:#fff;
+    background-color:#020c4d;
+    padding:13px 46px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size:0.7em;
+    font-weight: 600;
+    position:relative;
+    transition:0.3s;
+    border:none;
+    margin-left:5%;
+    margin-bottom:6%;
+
+}
+.welcome button:hover {
+    cursor:pointer;
+    background-color: #fff;
+    color: #020c4d;
+}

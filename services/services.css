@@ -1,0 +1,33 @@
+.welcome{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.history{
+    padding:0.1%;
+}
+.service{
+    padding:3%;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap:3%;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+.service ul li{
+    list-style-type: disc;
+    text-indent: 2%;
+    text-justify:distribute;
+
+}
+.text h3::before{
+    content:"";
+    background-color:rgba(190, 22, 34, .5);
+    width:7%;
+    height:4px;
+    position:absolute;
+    bottom:0;
+}
